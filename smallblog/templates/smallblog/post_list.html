@@ -1,0 +1,14 @@
+{% for post in posts %}
+<div>
+<font size=5>
+    {{post.author}}
+</font>
+<div/>
+<div>
+    The title:{{post.title}}</br>
+    The content:{{post.content}}</br>
+    The publishedtime:{{post.published_time}}</br>
+<div/>
+{%endfor%}
+
+
